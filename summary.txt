@@ -1,0 +1,35 @@
+### Summary of Financial Chatbot
+
+#### Overview
+The financial chatbot is a Streamlit-based application designed to assist users with financial queries related to specific companies and fiscal years. It reads data from two CSV files (`bcg.csv` for detailed financial reports and `summ.csv` for summary reports) to provide accurate responses to user inquiries.
+
+#### How It Works
+1. **User Interaction**: Users initiate a session by typing "Hi". The chatbot then prompts them to select a company from a predefined list (Microsoft, Tesla, Apple) and enter a fiscal year (2021, 2022, or 2023).
+2. **Data Input**: Users enter their query about the selected company's financial data for the specified fiscal year.
+3. **Response Generation**: The chatbot processes the query, extracts relevant data from the CSV files, and returns the requested information.
+
+#### Predefined Queries
+The chatbot can respond to the following queries:
+1. "What is the total revenue?"
+2. "What is the Net Income?"
+3. "What is the sum of total assets?"
+4. "What is the sum of total liabilities?"
+5. "What is cash flow from operating activities?"
+6. "What is the revenue growth(%)?"
+7. "What is the net income growth(%)?"
+8. "What is the assets growth(%)?"
+9. "What is the liabilities growth(%)?"
+10. "What is the cash flow from operations growth(%)?"
+11. "What is the year by year average revenue growth rate(%)?"
+12. "What is the year by year average net income growth rate(%)?"
+13. "What is the year by year average assets growth rate(%)?"
+14. "What is the year by year average liabilities growth rate(%)?"
+15. "What is the year by year average cash flow from operations growth rate(%)?"
+
+#### Limitations
+1. **Limited Companies and Years**: The chatbot can only provide information for Microsoft, Tesla, and Apple, and only for the fiscal years 2021, 2022, and 2023.
+2. **Fixed Queries**: The chatbot is limited to the predefined set of queries listed above. It cannot handle questions outside this scope.
+3. **Case Sensitivity and Input Validation**: Users must enter valid company names and fiscal years exactly as specified. Incorrect inputs will prompt error messages.
+4. **Static Data**: The chatbot relies on static CSV files, so it cannot provide real-time updates or information outside the scope of these files.
+
+This chatbot provides a user-friendly interface for accessing key financial data and growth metrics for specified companies and years, making it a valuable tool for quick financial insights.
